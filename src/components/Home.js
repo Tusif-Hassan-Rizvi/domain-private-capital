@@ -4,7 +4,7 @@ import PhoneIcon from '../assets/Call-Ringing.svg'
 
 
 function Home() {
-    const menuItems = ["Home", "About", "Loans", "FAQs", "Contact"];
+    const menuItems = ["Home", "About", "Loans", "Blog", "Loan calculator", "Contact"];
   return (
     <>
       {/* top section for heading */}
