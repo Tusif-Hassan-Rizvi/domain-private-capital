@@ -1,10 +1,11 @@
 import React from 'react';
 import '../style/Home.css';
 import PhoneIcon from '../assets/Call-Ringing.svg'
+import SiteIcon from '../assets/site-logo.svg'
 
 
 function Home() {
-    const menuItems = ["Home", "About", "Loans", "Blog", "Loan calculator", "Contact"];
+    const menuItems = ["Home", "About", "Loans", "FAQs", "Contact"];
   return (
     <>
       {/* top section for heading */}
@@ -16,7 +17,7 @@ function Home() {
       <section className="links-heading">
         {/* site name  */}
         <div className="site-name">
-        DPC
+        <img src={SiteIcon} alt='site icon'/>
         </div>
 
         {/* navigation links  */}
