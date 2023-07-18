@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Poppins:wght@500&display=swap');
+/* top section css for heading  */
+.top-heading {
+  width: 100vw;
+  height: 55px;
+  background-color: rgba(9, 67, 117, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-info {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+
+/* css for links heading  */
+.links-heading {
+  width: 100vw;
+  height: 100px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 24px 30px 0px rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-name {
+  color: #094375;
+  font-family: 'Poppins', sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  margin-left: 20px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-links li {
+  color: #094375;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  list-style: none;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.phone-logo {
+  width: 45px;
+  height: 45px;
+  background-color: rgba(215, 225, 233, 0.3);
+  border-radius: 50%;
+  border: 1px solid #c0d0de;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.phone-logo img {
+  margin: 5.4px 10.8px 5.4px 10.8px;
+}
+
+.button-login{
+width: 121px;
+height: 45px;
+border: none;
+flex-shrink: 0;
+border-radius: 40px;
+background-color: #11A2DE;
+color: white;
+outline: none;
+cursor: pointer;
+margin-right: 20px;
+}
